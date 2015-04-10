@@ -48,5 +48,8 @@
 	_currentBGCIndex = (_currentBGCIndex + 1) % 5;
 }
 
+- (IBAction)btnLinkAct:(UIButton *)sender {
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://yunzhu.li"]];
+}
 
 @end
