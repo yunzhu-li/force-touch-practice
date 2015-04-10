@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hi." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpK-ul-EX5">
-                                <rect key="frame" x="248" y="28" width="104" height="56"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpK-ul-EX5">
+                                <rect key="frame" x="248" y="140" width="104" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="104" id="Tuo-Cg-Np6"/>
                                     <constraint firstAttribute="height" constant="56" id="twC-IM-qX5"/>
@@ -27,17 +27,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Practice on your Apple Watch." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-KC-3GU">
-                                <rect key="frame" x="16" y="104" width="568" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice on your Apple Watch." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-KC-3GU">
+                                <rect key="frame" x="46" y="216" width="508" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="vaa-4L-BfX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Try to &quot;touch&quot; and &quot;press&quot; on the Apple Watch App." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XGB-eN-bnV">
-                                <rect key="frame" x="16" y="135" width="568" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -46,14 +40,11 @@
                                 <rect key="frame" x="150" y="540" width="300" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yunzhu Li" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eNv-nf-rUQ">
-                                        <rect key="frame" x="104" y="9" width="87" height="21"/>
+                                        <rect key="frame" x="110" y="9" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_link" translatesAutoresizingMaskIntoConstraints="NO" id="2es-Zl-0R7">
-                                        <rect key="frame" x="177" y="9" width="21" height="21"/>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSn-nK-uwh">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
                                         <state key="normal">
@@ -63,15 +54,25 @@
                                             <action selector="btnLinkAct:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tYI-R4-y5l"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_link" translatesAutoresizingMaskIntoConstraints="NO" id="2es-Zl-0R7">
+                                        <rect key="frame" x="169" y="8" width="21" height="21"/>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Ki9-NC-c6A"/>
                                     <constraint firstAttribute="width" constant="300" id="k8U-h2-HIM"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try to &quot;touch&quot; and &quot;press&quot; on the Apple Watch App." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XGB-eN-bnV">
+                                <rect key="frame" x="20" y="245" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.13725490196078433" green="0.48627450980392156" blue="0.70588235294117652" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XGB-eN-bnV" secondAttribute="trailing" constant="20" symbolic="YES" id="1aE-qc-DIe"/>
                             <constraint firstAttribute="centerX" secondItem="XGB-eN-bnV" secondAttribute="centerX" id="6oq-2W-RVb"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="150" id="8n7-wJ-x3f"/>
                             <constraint firstItem="XGB-eN-bnV" firstAttribute="leading" secondItem="Bgm-KC-3GU" secondAttribute="leading" id="APS-2U-42K"/>
@@ -79,15 +80,16 @@
                             <constraint firstItem="XGB-eN-bnV" firstAttribute="leading" secondItem="Bgm-KC-3GU" secondAttribute="leading" id="Kqa-fz-cIy"/>
                             <constraint firstItem="jpK-ul-EX5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="120" id="MTj-XI-NzU"/>
                             <constraint firstAttribute="bottom" secondItem="4Sm-NF-dR2" secondAttribute="bottom" constant="20" symbolic="YES" id="NHg-sX-Chd"/>
-                            <constraint firstItem="Bgm-KC-3GU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="NPF-AS-xnx"/>
+                            <constraint firstItem="Bgm-KC-3GU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="NPF-AS-xnx"/>
                             <constraint firstItem="XGB-eN-bnV" firstAttribute="top" secondItem="Bgm-KC-3GU" secondAttribute="bottom" constant="8" symbolic="YES" id="Q51-Gy-de9"/>
+                            <constraint firstItem="XGB-eN-bnV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="WUH-cb-k4I"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="540" id="WwZ-48-j2u"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="centerX" secondItem="XGB-eN-bnV" secondAttribute="centerX" id="Y0M-l3-iQn"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="540" id="ZOT-bA-QvV"/>
                             <constraint firstItem="jpK-ul-EX5" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="avE-Ro-OYb"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="centerX" secondItem="XGB-eN-bnV" secondAttribute="centerX" id="bWa-fv-iiH"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="540" id="d77-5R-f1a"/>
-                            <constraint firstItem="XGB-eN-bnV" firstAttribute="top" secondItem="Bgm-KC-3GU" secondAttribute="bottom" constant="10" id="fNr-wn-kbq"/>
+                            <constraint firstItem="XGB-eN-bnV" firstAttribute="top" secondItem="Bgm-KC-3GU" secondAttribute="bottom" constant="8" id="fNr-wn-kbq"/>
                             <constraint firstItem="XGB-eN-bnV" firstAttribute="trailing" secondItem="Bgm-KC-3GU" secondAttribute="trailing" id="fhb-yX-OtX"/>
                             <constraint firstAttribute="centerX" secondItem="Bgm-KC-3GU" secondAttribute="centerX" id="g5N-jc-lhh"/>
                             <constraint firstAttribute="centerX" secondItem="4Sm-NF-dR2" secondAttribute="centerX" id="gdt-N7-5mR"/>
@@ -99,13 +101,17 @@
                             <constraint firstItem="Bgm-KC-3GU" firstAttribute="top" secondItem="jpK-ul-EX5" secondAttribute="bottom" constant="20" id="qms-Hq-Xs5"/>
                             <constraint firstItem="4Sm-NF-dR2" firstAttribute="centerX" secondItem="XGB-eN-bnV" secondAttribute="centerX" id="sRp-bW-pLk"/>
                             <constraint firstAttribute="centerX" secondItem="Bgm-KC-3GU" secondAttribute="centerX" id="u8A-4m-t6U"/>
+                            <constraint firstAttribute="centerX" secondItem="XGB-eN-bnV" secondAttribute="centerX" id="xlx-OY-DqJ"/>
                             <constraint firstAttribute="centerX" secondItem="XGB-eN-bnV" secondAttribute="centerX" id="z8S-YX-qEv"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="g5N-jc-lhh"/>
+                                <exclude reference="6oq-2W-RVb"/>
                                 <exclude reference="APS-2U-42K"/>
+                                <exclude reference="Kqa-fz-cIy"/>
                                 <exclude reference="Q51-Gy-de9"/>
+                                <exclude reference="fhb-yX-OtX"/>
                                 <exclude reference="hUJ-AF-SJR"/>
                                 <exclude reference="z8S-YX-qEv"/>
                                 <exclude reference="Hd7-CG-e8G"/>

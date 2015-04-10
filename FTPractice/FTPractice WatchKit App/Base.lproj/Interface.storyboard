@@ -11,6 +11,7 @@
                 <controller id="AgC-eL-Hgc" customClass="FPICMain">
                     <items>
                         <button width="1" height="1" alignment="left" title="Touch or Press" id="rdN-pl-khp">
+                            <color key="backgroundColor" red="0.1215686275" green="0.48627450979999998" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="btnTouchAct" destination="AgC-eL-Hgc" id="rK4-zz-yAC"/>
                             </connections>
