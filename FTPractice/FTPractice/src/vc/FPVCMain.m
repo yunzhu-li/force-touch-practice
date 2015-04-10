@@ -41,6 +41,7 @@
 
 - (void)startBGFading {
 	self.tmBGFader = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(fadeBG) userInfo:nil repeats:YES];
+	[self fadeBG];
 }
 
 - (void)fadeBG {

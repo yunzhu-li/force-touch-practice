@@ -8,7 +8,6 @@
 
 #import "FPUIUtils.h"
 
-
 @implementation FPUIUtils
 
 + (NSArray *)fiveColors {
