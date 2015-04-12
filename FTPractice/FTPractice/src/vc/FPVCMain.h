@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GAI.h"
 
-@interface FPVCMain : UIViewController
+@interface FPVCMain : GAITrackedViewController
 
 @end
 

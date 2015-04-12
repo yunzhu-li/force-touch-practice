@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7919F1371AD9EF4100151663 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7919F1361AD9EF4100151663 /* iTunesArtwork */; };
 		7977E2AE1AD79C22005F7DBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7977E2AD1AD79C22005F7DBD /* Images.xcassets */; };
 		7977E2CE1AD79CC9005F7DBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7977E2C91AD79CC9005F7DBD /* AppDelegate.m */; };
 		7977E2CF1AD79CC9005F7DBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7977E2CA1AD79CC9005F7DBD /* main.m */; };
@@ -18,6 +19,11 @@
 		7977E3441AD79FA5005F7DBD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7977E3421AD79FA5005F7DBD /* Interface.storyboard */; };
 		7977E3461AD79FA5005F7DBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7977E3451AD79FA5005F7DBD /* Images.xcassets */; };
 		7977E3491AD79FA5005F7DBD /* FTPractice WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7977E3301AD79FA5005F7DBD /* FTPractice WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		798E246B1AD9F95A00505E80 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798E246A1AD9F95A00505E80 /* libGoogleAnalyticsServices.a */; };
+		798E246D1AD9FA4100505E80 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 798E246C1AD9FA4100505E80 /* libz.dylib */; };
+		798E246F1AD9FA7400505E80 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798E246E1AD9FA7400505E80 /* CoreData.framework */; };
+		798E24711AD9FA7E00505E80 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798E24701AD9FA7E00505E80 /* SystemConfiguration.framework */; };
+		798E24741ADA04D000505E80 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 798E24731ADA04D000505E80 /* libsqlite3.dylib */; };
 		79A86A301AD7A0FE007673EA /* FPICMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A86A2F1AD7A0FE007673EA /* FPICMain.m */; };
 		79A86A341AD7A668007673EA /* FPUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A86A331AD7A668007673EA /* FPUIUtils.m */; };
 		79A86A351AD7A668007673EA /* FPUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A86A331AD7A668007673EA /* FPUIUtils.m */; };
@@ -55,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7919F1361AD9EF4100151663 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		7977E29D1AD79C22005F7DBD /* FTPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7977E2AB1AD79C22005F7DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7977E2AD1AD79C22005F7DBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -71,6 +78,21 @@
 		7977E3411AD79FA5005F7DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7977E3431AD79FA5005F7DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		7977E3451AD79FA5005F7DBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		798E245E1AD9F90500505E80 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		798E245F1AD9F90500505E80 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		798E24601AD9F90500505E80 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		798E24611AD9F90500505E80 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		798E24621AD9F90500505E80 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		798E24631AD9F90500505E80 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		798E24641AD9F90500505E80 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		798E24651AD9F90500505E80 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		798E24661AD9F90500505E80 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		798E24671AD9F90500505E80 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		798E246A1AD9F95A00505E80 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		798E246C1AD9FA4100505E80 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		798E246E1AD9FA7400505E80 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		798E24701AD9FA7E00505E80 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		798E24731ADA04D000505E80 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		79A86A2E1AD7A0FE007673EA /* FPICMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPICMain.h; sourceTree = "<group>"; };
 		79A86A2F1AD7A0FE007673EA /* FPICMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPICMain.m; sourceTree = "<group>"; };
 		79A86A321AD7A668007673EA /* FPUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPUIUtils.h; sourceTree = "<group>"; };
@@ -82,6 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798E24741ADA04D000505E80 /* libsqlite3.dylib in Frameworks */,
+				798E24711AD9FA7E00505E80 /* SystemConfiguration.framework in Frameworks */,
+				798E246F1AD9FA7400505E80 /* CoreData.framework in Frameworks */,
+				798E246D1AD9FA4100505E80 /* libz.dylib in Frameworks */,
+				798E246B1AD9F95A00505E80 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,9 +145,11 @@
 		7977E29F1AD79C22005F7DBD /* FTPractice */ = {
 			isa = PBXGroup;
 			children = (
+				798E24721AD9FA8A00505E80 /* frameworks */,
 				7977E2C61AD79CC9005F7DBD /* src */,
 				7977E2AA1AD79C22005F7DBD /* Main.storyboard */,
 				7977E2AF1AD79C22005F7DBD /* LaunchScreen.xib */,
+				7919F1361AD9EF4100151663 /* iTunesArtwork */,
 				7977E2AD1AD79C22005F7DBD /* Images.xcassets */,
 			);
 			path = FTPractice;
@@ -129,6 +158,7 @@
 		7977E2C61AD79CC9005F7DBD /* src */ = {
 			isa = PBXGroup;
 			children = (
+				798E23FF1AD9F8BD00505E80 /* thirdparty */,
 				7977E2C71AD79CC9005F7DBD /* main */,
 				79A86A311AD7A634007673EA /* utils */,
 				7977E2CB1AD79CC9005F7DBD /* vc */,
@@ -189,6 +219,43 @@
 				7977E3411AD79FA5005F7DBD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798E23FF1AD9F8BD00505E80 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				798E245D1AD9F90500505E80 /* GoogleAnalytics */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		798E245D1AD9F90500505E80 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				798E245E1AD9F90500505E80 /* GAI.h */,
+				798E245F1AD9F90500505E80 /* GAIDictionaryBuilder.h */,
+				798E24601AD9F90500505E80 /* GAIEcommerceFields.h */,
+				798E24611AD9F90500505E80 /* GAIEcommerceProduct.h */,
+				798E24621AD9F90500505E80 /* GAIEcommerceProductAction.h */,
+				798E24631AD9F90500505E80 /* GAIEcommercePromotion.h */,
+				798E24641AD9F90500505E80 /* GAIFields.h */,
+				798E24651AD9F90500505E80 /* GAILogger.h */,
+				798E24661AD9F90500505E80 /* GAITrackedViewController.h */,
+				798E24671AD9F90500505E80 /* GAITracker.h */,
+				798E246A1AD9F95A00505E80 /* libGoogleAnalyticsServices.a */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		798E24721AD9FA8A00505E80 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798E24731ADA04D000505E80 /* libsqlite3.dylib */,
+				798E24701AD9FA7E00505E80 /* SystemConfiguration.framework */,
+				798E246E1AD9FA7400505E80 /* CoreData.framework */,
+				798E246C1AD9FA4100505E80 /* libz.dylib */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 		79A86A2D1AD7A0FE007673EA /* src */ = {
@@ -275,12 +342,15 @@
 				TargetAttributes = {
 					7977E29C1AD79C22005F7DBD = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 67THR6ABFT;
 					};
 					7977E32F1AD79FA5005F7DBD = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 67THR6ABFT;
 					};
 					7977E33A1AD79FA5005F7DBD = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 67THR6ABFT;
 					};
 				};
 			};
@@ -312,6 +382,7 @@
 				7977E2D11AD79D56005F7DBD /* Main.storyboard in Resources */,
 				7977E2D21AD79D56005F7DBD /* LaunchScreen.xib in Resources */,
 				7977E2AE1AD79C22005F7DBD /* Images.xcassets in Resources */,
+				7919F1371AD9EF4100151663 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,9 +554,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FTPractice/res/supporting/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTPractice/src/thirdparty",
+					"$(PROJECT_DIR)/FTPractice/src/thirdparty/GoogleAnalytics",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -494,9 +571,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = FTPractice/res/supporting/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTPractice/src/thirdparty",
+					"$(PROJECT_DIR)/FTPractice/src/thirdparty/GoogleAnalytics",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +588,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -513,6 +598,7 @@
 				INFOPLIST_FILE = "FTPractice WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -523,10 +609,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				IBSC_MODULE = FTPractice_WatchKit_Extension;
 				INFOPLIST_FILE = "FTPractice WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -536,6 +625,7 @@
 		7977E34E1AD79FA5005F7DBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -551,6 +641,7 @@
 		7977E34F1AD79FA5005F7DBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "FTPractice WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";

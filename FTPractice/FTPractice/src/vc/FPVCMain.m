@@ -21,17 +21,25 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	[self setNeedsStatusBarAppearanceUpdate];
+	
+	// Set screen name.
+	self.screenName = @"FPVCMain";
+	
 	// Get colors
 	self.fiveColors = [FPUIUtils fiveColors];
+	
+	// Status bar
+	[self setNeedsStatusBarAppearanceUpdate];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
 	_currentBGCIndex = 1;
 	[self startBGFading];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
+	[super viewDidDisappear:animated];
 	[self.tmBGFader invalidate];
 }
 
